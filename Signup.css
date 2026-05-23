@@ -1,0 +1,402 @@
+*{
+
+
+
+  margin:0;
+
+
+
+  padding:0;
+
+
+
+  box-sizing:border-box;
+
+
+
+}
+
+
+
+body{
+
+
+
+  font-family: Arial, sans-serif;
+
+
+
+  background:#f7f8f9;
+
+
+
+}
+
+
+
+.main{
+
+
+
+  width:100%;
+
+
+
+  min-height:100vh;
+
+
+
+  display:flex;
+
+
+
+  justify-content:center;
+
+
+
+  background:#f7f8f9;
+
+
+
+}
+
+
+
+.box{
+
+
+
+  width:375px;
+
+
+
+  min-height:812px;
+
+
+
+  padding:40px 20px;
+
+
+
+  position:relative;
+
+
+
+  background:#f7f8f9;
+
+
+
+}
+
+
+
+h1{
+
+
+
+  font-size:42px;
+
+
+
+  line-height:52px;
+
+
+
+  font-weight:700;
+
+
+
+  color:#1d2226;
+
+
+
+  margin-bottom:35px;
+
+
+
+}
+
+
+
+.field{
+
+
+
+  position:relative;
+
+
+
+  margin-bottom:24px;
+
+
+
+}
+
+
+
+.field label{
+
+
+
+  position:absolute;
+
+
+
+  top:-9px;
+
+
+
+  left:14px;
+
+
+
+  background:#f7f8f9;
+
+
+
+  padding:0 5px;
+
+
+
+  font-size:14px;
+
+
+
+  color:#6c25ff;
+
+
+
+  z-index:10;
+
+
+
+}
+
+
+
+.field input{
+
+
+
+  width:100%;
+
+
+
+  height:48px;
+
+
+
+  border:1px solid #d9d9d9;
+
+
+
+  border-radius:7px;
+
+
+
+  padding:0 15px;
+
+
+
+  font-size:16px;
+
+
+
+  outline:none;
+
+
+
+  background:white;
+
+
+
+}
+
+
+
+.field input::placeholder{
+
+
+
+  color:#1d2226;
+
+
+
+}
+
+
+
+.agency-box{
+
+
+
+  margin-top:10px;
+
+
+
+}
+
+
+
+.agency-box p{
+
+
+
+  font-size:16px;
+
+
+
+  color:#1d2226;
+
+
+
+  margin-bottom:18px;
+
+
+
+}
+
+
+
+.agency-box p span{
+
+
+
+  color:red;
+
+
+
+}
+
+
+
+.radio-box{
+
+
+
+  display:flex;
+
+
+
+  gap:35px;
+
+
+
+}
+
+
+
+.radio-item{
+
+
+
+  display:flex;
+
+
+
+  align-items:center;
+
+
+
+  gap:10px;
+
+
+
+}
+
+
+
+.radio-item input{
+
+
+
+  width:22px;
+
+
+
+  height:22px;
+
+
+
+  accent-color:#6c25ff;
+
+
+
+}
+
+
+
+.radio-item span{
+
+
+
+  font-size:18px;
+
+
+
+  color:#1d2226;
+
+
+
+}
+
+
+
+.signupBtn {
+
+
+
+  width:100%;
+
+
+
+  height:54px;
+
+
+
+  border:none;
+
+
+
+  border-radius:8px;
+
+
+
+  background:#6c25ff;
+
+
+
+  color:white;
+
+
+
+  font-size:20px;
+
+
+
+  font-weight:600;
+
+
+
+  cursor:pointer;
+
+
+
+  position:absolute;
+
+
+
+  bottom:30px;
+
+
+
+  left:20px;
+
+
+
+  width:calc(100% - 40px);
+
+
+
+}
+

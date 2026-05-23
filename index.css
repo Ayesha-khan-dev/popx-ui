@@ -1,0 +1,14 @@
+
+body {
+  margin: 0;
+  background: #e0e0e0;
+}
+
+#root {
+  width: 100%;
+  max-width: 390px;
+  min-height: 100vh;
+  background: white;
+  position: relative;
+  margin: 0 auto;
+}
