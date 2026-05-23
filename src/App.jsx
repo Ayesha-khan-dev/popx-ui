@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Welcome from "./pages/Welcome";
 import Login from "./pages/Login";
@@ -11,6 +11,7 @@ function App() {
      
      <Routes>
 
+      <Route path="/" element={<Navigate to="/Welcome" />} />
       <Route path="/Welcome" element={<Welcome />} />
 
       <Route path="/Login" element={<Login />} />
